@@ -1,0 +1,489 @@
+/*BLOCK1*/
+	.block01
+	{
+		position:relative;
+		width:100%;
+		min-height:809px;
+		margin:0;
+		padding:0;
+		background-image:url(../images/background01.png);
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: bottom;
+		 overflow-x:hidden;overflow-y:auto;
+	
+	}
+	.bubles1
+	{
+		position:absolute;
+		width:100%;
+		height:100%;
+	
+		background-image: url(../images/bubles.png);
+	
+		background-repeat: repeat;
+		animation: example 300s infinite;/*анимация движения*/
+		overflow:hidden;
+		z-index:2;
+	}
+
+	
+	@keyframes example 
+	{
+		0%   {background-position:0px;}
+		50%  {background-position:5000px;}
+		100% {background-position:10000pxpx;}
+	}
+
+.container-fluid
+{margin:0;
+padding:0;}
+.row
+{margin:0;
+padding:0;}
+.block01-content
+{
+	
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+	z-index:20;
+	
+}
+#responsive-menu ul li a
+{
+	
+	font-size:18px; 
+	color:#fff;
+
+}
+
+
+	
+	#responsive-menu ul li a:hover
+	{
+		color:red;
+		
+	}
+	.block01 .navbar-inverse
+{
+	background-color:rgba(0,0,0,0);
+	z-index:20;
+}
+	@media screen and (max-width:1200px)
+	{
+		.block01 .navbar-inverse
+{
+	background-color:rgba(0,0,0,1);
+	
+}
+		
+		
+	}
+.headerbottom
+{background-color:#1c1f25;
+min-height:142px;
+max-height:190px;
+height:auto;
+background-image:url(../images/woomanBG1.png);
+		background-repeat:no-repeat;
+		background-size:400px 100%;
+		background-position:right 3em bottom 0;
+position:absolute;
+bottom:0;
+z-index:22;
+	 
+}
+.block01 .headerbottom h3
+	{	
+		color: white;
+		font-size:48px;
+		
+	
+		font-family: 'Pattaya', sans-serif;
+		font-weight:100;
+		text-align:left;
+	}
+	 .block01 .headerbottom p
+	{
+		font-weight:100;
+		color: white;
+		font-size:26px;
+	
+		
+	}
+	.block01 .light
+	{
+		width:0px;
+		height:0px;
+		background-color:white;
+		position:absolute;
+		left:35%;
+		top:310px;
+		border:1px solid rgba(255,255,255,0.7);
+		border-radius:50%;
+		box-shadow: 0 0 200px 350px rgba(255,255,255,0.7);
+	
+		
+	}
+	
+	
+	.hair
+	{
+		/*width:780px;*/
+		height:668px;
+		position:absolute;
+		background-image:url(../images/hair2.png);
+		background-position: left;
+		background-repeat:no-repeat;
+		
+		z-index:1;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@media screen and (max-width:1000px)
+	{.headerbottom
+		{
+		background-position:right -100px bottom 0;
+}
+
+.block01 .headerbottom h3
+	{	
+		
+	font-size:28px;}
+
+ .block01 .headerbottom p
+	{
+		font-size:16px;
+	
+		
+	}
+	
+}
+
+
+	@media screen and (max-width:1000px)
+	{
+		
+		.block01 .light
+		{display:none;}
+		
+	}
+	/*.headerbottom
+	{
+		background-color:#1c1f25;
+		position:relative;
+	bottom:0;
+	height:141px;
+	
+	}
+	
+	/*.headerbottom
+	{
+		background-color:#1c1f25;
+		position:absolute;
+		bottom:0;
+		
+		height:141px;
+		background-image:url(../images/woomanBG1.png);
+		background-repeat:no-repeat;
+		background-position:right 3em bottom 0;
+		z-index:200;
+	}*/
+/*	.block01 .headerbottom h3
+	{	position:absolute;
+		color: white;
+		font-size:48px;
+		line-height:0;
+		left:10%;
+		font-family: 'Pattaya', sans-serif;
+		font-weight:100;
+		top:40px;
+	}
+	 .block01 .headerbottom p
+	{
+		position:absolute;
+		color: white;
+		font-size:26px;
+		left:10%;
+		top:75px;
+	}
+	 
+	
+	.hair
+	{
+		width:780px;
+		height:668px;
+		position:absolute;
+		background-image:url(../images/hair2.png);
+		background-position: 0px 0px;
+	}
+.block01 .container-fluid
+	{
+		z-index:20;
+		
+		position:absolute;
+		
+		height:100%;
+		width:100%;
+	}
+	.block01 .light
+	{
+		width:0px;
+		height:0px;
+		background-color:white;
+		position:absolute;
+		left:495px;
+		top:310px;
+		box-shadow: 0 0 250px 150px rgba(255,255,255,0.7);
+		border-radius:50%;
+	}
+	
+	
+	.block01 .row .navbar-inverse
+	{
+		
+}
+.block01 .navbar-inverse
+{
+	background-color:rgba(0,0,0,0);
+	
+}
+#responsive-menu ul li a
+{
+	
+	font-size:18px; 
+	color:#fff;
+
+}
+
+
+	
+	#responsive-menu ul li a:hover
+	{
+		color:red;
+		
+	}
+	
+	
+	.information
+	{
+		
+		height:235px;
+		width:330px;
+		position:absolute;
+		right:180px;
+		top:330px;
+		background-color:white;
+		border:15px solid #641faa;
+		border-top:45px solid #641faa;
+		border-radius:5px;
+	}
+	
+	
+	
+	.block01 .information h3
+	{
+		color:white;
+		position:relative;
+		margin:0 auto;
+		text-align:center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size:22px;
+		top:-35px;
+		padding:0;
+		
+	}
+	
+	.block01 .information .phone1
+	{
+		
+		color:#641faa;
+		margin:0 auto;
+		width:170px;
+		text-align:center;
+		background-image:url(../images/phone1.png);
+		background-repeat:no-repeat;
+		background-position:0 8px;
+		font-size:22px;
+	}
+	
+	.block01 h3
+	{	
+		position:absolute;
+		color: white;
+		font-size:48px;
+	
+		right:5%;
+		font-family: 'Pattaya', sans-serif;
+		font-weight:100;
+		top:90px;
+	}
+	.block01 h2
+	{
+		position:absolute;
+		width:580px;
+		height:auto;
+		color: white;
+		font-size:26px;
+		text-align:center;
+		right:5%;
+		top:190px;
+	}
+	
+	
+	
+	
+	.button
+	{
+		position:relative;
+		margin:0 auto;
+		padding:0;
+		bottom:20px;
+		width:240px;
+		height:55px;
+		color:white;
+		font-size:22px;
+		background-color:#1cb100;
+		text-align:center;
+		line-height:50px;
+		margin-top:30px;
+		transition:all 1s;
+	}
+	.button:hover
+	{color:red;
+	cursor:pointer;
+	}
+	
+	.forPhones
+	{
+		
+		width:80px;
+		height:40px;
+
+		position:relative;
+		margin:0 auto;
+		margin-top:10px;
+		
+	}
+	.phone1activeCall1
+	{
+		position:absolute;
+		width:35px;
+		height:35px;
+		background-color:red;
+		background-image:url(../images/mini-icon3.png);
+		left:0px;
+		font-size:22px;
+		color:white;
+		
+		text-indent:-1000000px;
+		
+	}
+	
+	.phone1activeCall2
+	{
+		position:absolute;
+		width:35px;
+		height:35px;
+		background-color:red;
+		background-image:url(../images/mini-icon4.png);
+		right:0px;
+		font-size:22px;
+		color:white;
+		
+		text-indent:-1000000px;
+		
+	}
+	.block01 .information p
+	
+	{
+		color:red;
+		font-size:18px;
+		color:#641faa;
+		position:relative;
+		text-align:center;
+		margin-top:10px;
+	}
+	
+	
+	@media screen and (max-width:1000px)
+	{	
+		
+		.block01 .headerbottom h3
+		{
+			
+			left:10px;
+		}
+		.block01 .headerbottom p
+		{
+			
+			left:10px;
+		}
+	}
+	
+	@media screen and (max-width:750px)
+	{.block01 .navbar-inverse
+{
+	background-color:rgba(0,0,0,1);
+	
+}}
+	
+	
+	@media screen and (max-width:800px)
+	{
+		.information
+		{
+			position:relative;
+			margin:0 auto;
+			right:0;
+		}
+		
+		
+		 
+		.block01 .headerbottom h3
+		{
+			
+			  text-shadow: 1px 1px 2px black, 0 0 1em black;
+		}
+		.block01 .headerbottom p
+		{
+			
+			  text-shadow: 1px 1px 2px black, 0 0 1em black;
+		}
+		
+	
+		.block01 h3
+	{font-size:40px;	
+	margin:0 auto;
+	text-align:center;
+	}
+		.block01 h2
+	{	
+	
+	width:auto;
+	}
+	
+	}
+	@media screen and (max-width:600px)
+	{	.block02
+		{
+			
+			
+			
+		}
+		.block01 .headerbottom h3
+		{font-size:30px;}
+	
+		
+	}
+		*/

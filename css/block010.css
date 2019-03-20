@@ -1,0 +1,73 @@
+.block010
+	{
+		position:relative;
+		width:100%;
+		min-height:410px;
+		height:auto;
+		background-color:#eaeaea;
+		overflow:hidden;
+		
+		
+	}
+	.block010 h4
+	{
+		
+		margin:0 auto;
+		margin-top:30px;
+		font-size:16px;
+		color:#9c9c9c;
+		text-align:center;
+		/*width:300px;*/
+		
+	}
+	.emblem
+	{
+	
+	height:27px;
+	background-image:url(../images/smar.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	
+		margin-top:30px;
+	}
+	.block010 a p
+	{
+		position:relative;
+		
+		margin-top:30px;
+		font-size:16px;
+		color:#9c9c9c;
+		font-weight:700;
+		/*width:150px;*/
+	
+		margin-left:20px;
+	}
+	.block010  p
+	{
+		margin-top:30px;
+		margin-left:20px;
+		margin-right:20px;
+		position:relative;
+	
+		font-size:16px;
+		color:#9c9c9c;
+		font-weight:400;
+	
+		
+		
+	}
+	
+	
+	
+	@media screen and (max-width: 1000px) {
+   .block010 a p
+	{
+		
+		text-align:center;
+	}
+}
+
+
+
+
+
